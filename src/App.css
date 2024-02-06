@@ -1,0 +1,118 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Side-Bar-dot{
+  position: absolute;
+  right: 35%;
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;;
+}
+.Side-Bar-cross{
+  cursor: pointer;
+  position: absolute;
+  right: 36%;
+  padding: 10px;
+  margin: 10px;
+}
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px;
+  width: 500px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+
+.card img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 8px;
+}
+
+/* Add some space between cards */
+.card + .card {
+  margin-top: 20px;
+}
+.card {
+  /* Add styles to the card container */
+  border: 1px solid #ccc;
+  padding: 16px;
+  margin: 16px;
+}
+
+.Name{
+text-align: center;
+display: flex;
+/* margin-top: -8%;
+
+margin-left: 25%;  */
+}
+.Date1{
+  /* position: absolute;
+  left: 42%;
+  top: 14%; */
+  /* margin-left: 25%; */
+  font-size: medium;
+  display: flex;
+
+}
+.card h1 {
+  
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-weight: bold; 
+  margin: 2px;
+  padding: 5px;
+  text-align: left;
+  text-transform: capitalize;
+}
+.Profile-img {
+  /* position: absolute;
+  left: 35%; */
+  display: flex;
+  width: 120px;
+}
+.card a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.card a:hover {
+  text-decoration: underline;
+}
+
+
+
+.comment-icon {
+  margin-top: -15px;
+  margin-left: -30px;
+  color: #666;
+  cursor: pointer;
+} 
+.share-icon {
+  margin-top: -15px;
+  margin-left: 335px;
+  color: #666;
+  cursor: pointer;
+  
+} 
+
+
+
+
+
+
+
+
+
+
+
+
